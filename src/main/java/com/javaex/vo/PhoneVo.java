@@ -7,7 +7,7 @@ public class PhoneVo {
 		public int personId ;
 		
 		//생성자
-		PhoneVo (){}
+		public PhoneVo (){}
 		
 		public PhoneVo(int personId, String name, String hp, String company){
 			this.name = name;

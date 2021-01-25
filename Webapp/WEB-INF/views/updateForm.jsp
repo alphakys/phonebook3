@@ -20,8 +20,8 @@
 			이름 : <input type="text" name="name" value="${updatePerson.name }"><br>
 			핸드폰 번호 : <input type="text" name="hp" value="${updatePerson.hp }"><br>
 			회사 번호 : <input type="text" name="company" value="${updatePerson.company }"><br>
-					<input type="hidden" name="action" value="update">
-					<input type="hidden" name="id" value="${param.id }">
+					
+					<input type="hidden" name="personId" value="${param.id }">
 			<button type="submit">수정</button>
 			
 		</form>
